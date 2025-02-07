@@ -105,12 +105,16 @@ namespace Demo
             #endregion
             #endregion
 
-            #region LINQ Execution Ways [Differd / Immediate]
+            #region LINQ Execution Ways [Differed , Immediate]
+
+            // 1. Differed   --> 10 categories
+            // 2. Immediate   --> 3 categories [Elements Operator , Casting Operators , Aggregate Operators]
+
             //10 Categories => Differd Execution
             //List<int> Numbers = new List<int>() { 1,2,3,4,5,6,7,8,9,10};
 
             #region Differed Execution
-            ////var EvenNumbers = Numbers.Where(N=>N %2 ==0);
+            ////var EvenNumbers = Numbers.Where(N=>N %2 ==0);    --> executed when needed
 
             ////Numbers.AddRange(new List<int>() { 11, 12, 13, 14, 15 });
 
